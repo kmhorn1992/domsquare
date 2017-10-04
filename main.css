@@ -2,7 +2,25 @@ body {
     background-color:yellow;
 }
 
+
 .squarebutton {
-    background-color: blue;
-    
+    height: 2em;
+    background-color: #006FC2;
+    cursor: pointer;
+    display: block;
+}
+
+.squarebutton:hover {
+    background-color: indigo;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    line-height: 75px;
+    text-align: center;
+    background-color: #150CDC;
+    float: left;
+    color: transparent;
+    margin: 2em;
 }
